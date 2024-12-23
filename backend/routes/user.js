@@ -69,7 +69,7 @@ router.post("/signin", async (req, res) => {
             message: "Email already taken / Incorrect inputs"
         })
     }
-
+ 
     const user = await User.findOne({
         username: req.body.username,
         password: req.body.password
