@@ -45,6 +45,7 @@ export default function AppBar() {
               <span className="text-red-500">Logout</span>
             </button>
           </div>
+          
         )}
       </div>
     </div>
