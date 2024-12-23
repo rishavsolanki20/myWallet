@@ -30,7 +30,7 @@ export default function Balance() {
     <div>
       {balance !== null ? (
         <div>
-          Your balance is: {balance}
+          Your balance: {balance}
         </div>
       ) : (
         <div>No balance data available</div>
